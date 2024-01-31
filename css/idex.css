@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 169px;
+    color: whitesmoke
+}
+.first button{
+    border-radius: 4px;
+border-color:whitesmoke;
+border-width: 1px;
+    background-color:transparent;
+    height: 40px;
+    width: 150px; 
+    cursor:pointer;
+    color: whitesmoke;
+    margin-right: 30px;
+    
+}
+.first li{
+display: inline-block;
+padding: 10px 20px;
+background-image: none;
+cursor: pointer;
+}
+.first ul{
+text-align: right;
+margin-top: -32px;
+}
+.first a{
+text-decoration: none;
+color: whitesmoke;
+}
+.second{
+    width: 354px;
+    height: 355px;
+    border: 1px solid green;
+    border-radius: 3px;
+    position: absolute;
+    right: 141px;
+    top: 110px;
+    background-color:white;
+    border-color: white;
+}
+.second h1{
+    text-align: center;
+    margin-top: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+input{
+    border-radius: 4px;
+    border-style: none;
+    background-color:#c0c0c040;
+    padding: 7px ;
+    margin: 7px auto;
+    margin-left: 80px ;
+    height: 40px;
+}
+select{
+    border-radius: 4px;
+    border-style: none;
+    background-color:#c0c0c040;
+    padding: 7px ;
+    margin: 7px auto;
+    margin-left: 80px ;
+    height: 40px;
+    width: 184px;
+    cursor:pointer;
+}
+.second button{
+    border-radius: 21px;
+    border-style: none;
+    background-color:#c0c0c040;
+    padding: 7px ;
+    margin: 7px auto;
+    margin-left: 80px ;
+    height: 40px;
+    width: 184px; 
+    cursor:pointer;
+    background-color: #0000ffd6;
+    transition: 0.2s;
+    
+}
+.second button:hover{
+    background: transparent;
+    background-color: silver;
+}
+.third h1{
+    position: absolute;
+    top: 159px;
+    left: 171px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+.third h1 pre{
+    font-size: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.third h1 button{
+    border-radius: 21px;
+   border-style: none;
+    
+    color: white;
+
+    padding: 7px;
+    margin: 7px auto;
+    margin-left: 1px;
+    height: 40px;
+    width: 184px;
+    cursor: pointer;
+    background-color: green;
+    transition: 0.2s;
+}
+.third h1 button:hover{
+    background: transparent;
+    background-color: silver;
+    color: green;
+}
